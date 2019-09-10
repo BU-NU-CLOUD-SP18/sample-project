@@ -1,6 +1,8 @@
-**MOC-UI Project Proposal**
+** **
 
-**Vision and Goals Of The Project: **
+## MOC-UI Project Proposal
+
+## 1. Vision and Goals Of The Project:
 
 MOC-UI will be the front-end UI for end-users (customers) of the Massachusetts Open Cloud ([MOC](http://www.bu.edu/hic/initiatives/massachusetts-open-cloud/)). High-Level Goals of MOC-UI include:
 
@@ -10,7 +12,7 @@ MOC-UI will be the front-end UI for end-users (customers) of the Massachusetts O
 
 * Enabling a marketplace to show the high- (Hadoop Service, PaaS, Appliances) and low- (VMs, Storage, Computer, Networking, etc.) level customizable offerings of multiple providers
 
-Users/Personas Of The Project
+## 2. Users/Personas Of The Project
 
 MOC-UI will be used by the end-users of MOC including researchers from BU, NU, MIT, HU and UMass, MGHPCC contributing companies, Commonwealth companies and government institutions, and paying users. 
 
@@ -24,7 +26,7 @@ It does not target:
 
 * Advanced users with complex requirements who are expected to use command line interfaces. 
 
-1. **Scope and Features Of The Project:**
+## 3. Scope and Features Of The Project:
 
 MOC-UI 
 
@@ -60,7 +62,7 @@ MOC-UI
 
 * Extensibility: Provides an extendable interface that allows third-party service interaction
 
-2. **Solution Concept**
+## 4. Solution Concept
 
 A high-level outline of the solution…
 
@@ -112,7 +114,7 @@ Key design decisions and motivation behind them.
 
 * Extensible UI: Rather than making the UI itself extensible using plugins (like horizon today), we instead assume that each service stands up its own UI and a common user experience is provided by common styling between the UIs as a user moves from one to another. This is necessary in a multi-provider cloud, since providers are not trusted to modify a shared service. 
 
-**Acceptance criteria**
+## 5. Acceptance criteria
 
 Minimum acceptance criteria is a single running UI that works against a single OpenStack installation. Stretch goals are:
 
@@ -122,7 +124,7 @@ Minimum acceptance criteria is a single running UI that works against a single O
 
 * Addition of extensible services possibly using iframes.
 
-**Release Planning**
+## 6. Release Planning
 
 Detailed user stories and plans are on the Trello board: https://trello.com/b/4EbylOXI/example-trello-board-for-moc-ui
 
